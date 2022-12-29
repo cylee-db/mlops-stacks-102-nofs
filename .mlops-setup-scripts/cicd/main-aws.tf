@@ -5,8 +5,8 @@ module "aws_create_sp" {
     databricks.prod    = databricks.prod
   }
   service_principal_name       = "mlops-stacks-102-nofs-cicd"
-  project_directory_path       = "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/mlops-stacks-102-nofs"
-  service_principal_group_name = "mlops-stacks-102-nofs-service-principals"
+  project_directory_path       = "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/projects/mlops-stacks-102-nofs"
+  service_principal_group_name = "data-science-admins"
 }
 
 data "databricks_current_user" "staging_user" {
