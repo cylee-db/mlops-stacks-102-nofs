@@ -2,7 +2,7 @@ locals {
   // Base workspace directory under which to create resources in the workspace for the current MLOps project
   // We assume the service principal used to deploy resources has CAN MANAGE permissions on directory
   // You may need to modify this value if you'd like to use a different directory for per-project resources
-  mlflow_experiment_parent_dir = "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/mlops-stacks-102-nofs"
+  mlflow_experiment_parent_dir = "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/projects/mlops-stacks-102-nofs"
   // Current environment
   env = "staging"
   // Env-specific prefix to prepend to resource names. We recommend creating staging/prod resources
