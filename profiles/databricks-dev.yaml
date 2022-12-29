@@ -1,6 +1,6 @@
 # This profile contains config overrides for model development on Databricks
 experiment:
-  name: "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/mlops-stacks-102-nofs"
+  name: "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/projects/mlops-stacks-102-nofs"
 
 # Set the registry server URI. This property is especially useful if you have a registry
 # server that’s different from the tracking server.
