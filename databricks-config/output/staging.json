@@ -1,0 +1,27 @@
+{
+  "mlops-stacks-102-nofs_batch_inference_job_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "274238800807315"
+  },
+  "mlops-stacks-102-nofs_experiment_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "4380395087460147"
+  },
+  "mlops-stacks-102-nofs_experiment_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "/Users/chiayui.lee@databricks.com/_playground/mlops_stacks/projects/mlops-stacks-102-nofs/staging-mlops-stacks-102-nofs-experiment"
+  },
+  "mlops-stacks-102-nofs_model_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "staging-mlops-stacks-102-nofs-model"
+  },
+  "mlops-stacks-102-nofs_training_job_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "237336367251523"
+  }
+}
